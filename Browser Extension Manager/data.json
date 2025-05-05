@@ -54,19 +54,19 @@
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-link-checker.svg",
+        "logo": "./images/logo-link-checker.svg",
         "name": "LinkChecker",
         "description": "Scans and highlights broken links on any page.",
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-dom-snapshot.svg",
+        "logo": "./images/logo-dom-snapshot.svg",
         "name": "DOM Snapshot",
         "description": "Capture and export DOM structures quickly.",
         "isActive": false
     },
     {
-        "logo": "./assets/images/logo-console-plus.svg",
+        "logo": "./images/logo-console-plus.svg",
         "name": "ConsolePlus",
         "description": "Enhanced developer console with advanced filtering and logging.",
         "isActive": true
