@@ -30,7 +30,6 @@ function renderExtensions(data) {
     data.forEach(extension => {
         const card = document.createElement("div");
         card.className = "card";
-       
 
         card.innerHTML = `
             <div class="details">
@@ -54,20 +53,27 @@ function renderExtensions(data) {
             card.remove();
         });
 
+        // Update isActive in extensionsData when toggled
+        const checkbox = card.querySelector("input[type='checkbox']");
+        checkbox.addEventListener("change", () => {
+            extension.isActive = checkbox.checked;
+        });
+
         container.appendChild(card);
     });
 }
 
+// Filter button styling
 const filterButtons = document.querySelectorAll('.filters button');
 
 filterButtons.forEach(btn => {
-  btn.addEventListener('click', () => {
-    filterButtons.forEach(button => button.classList.remove('active'));
-    btn.classList.add('active');
-  });
+    btn.addEventListener('click', () => {
+        filterButtons.forEach(button => button.classList.remove('active'));
+        btn.classList.add('active');
+    });
 });
 
-// Filter button logic
+// Filter logic
 document.getElementById("all").addEventListener("click", () => {
     renderExtensions(extensionsData);
 });
