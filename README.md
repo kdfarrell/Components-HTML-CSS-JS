@@ -5,4 +5,5 @@ This repository contains a collection of UI components and small projects create
 ## Project List
 1. **[Calculator](https://kdfarrell.github.io/Components-HTML-CSS-JS/Calculator)**
 2. **[Browser Extension Manager](https://kdfarrell.github.io/Components-HTML-CSS-JS/Browser%20Extension%20Manager/)**
+3. **[Rating Component](https://kdfarrell.github.io/Components-HTML-CSS-JS/Rating%20Component/)**
 
